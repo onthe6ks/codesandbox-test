@@ -79,23 +79,23 @@
 //   return str;
 //  }
 
-const func1 = function (str) {
-  return str;
-};
+// const func1 = function (str) {
+//   return str;
+// };
 
-console.log(func1("funnc1です"));
+// console.log(func1("funnc1です"));
 
-//アロー関数 引数が１つであれば省力できる。処理が一行であれば、ブランケット（{）も省略できる
+// //アロー関数 引数が１つであれば省力できる。処理が一行であれば、ブランケット（{）も省略できる
 
-const func2 = (str) => {
-  return str;
-};
+// const func2 = (str) => {
+//   return str;
+// };
 
-console.log(func2("funnc2です"));
+// console.log(func2("funnc2です"));
 
-const func3 = (num1, num2) => num1 + num2;
+// const func3 = (num1, num2) => num1 + num2;
 
-console.log(func3(5, 6));
+// console.log(func3(5, 6));
 
 /**
  * アロー関数と無名関数のち外
