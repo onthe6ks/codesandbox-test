@@ -127,3 +127,11 @@
 // const [name2, age2] = myProfile2;
 // const message3 = `名前は${name2}です。年齢は${age2}歳です!!`;
 // console.log(message3);
+
+/**
+ * デフォルト値
+ */
+
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん`);
+
+// sayHello();
