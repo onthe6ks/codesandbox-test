@@ -104,3 +104,26 @@
  * 「コンストラクタ」を持たない
  * 「arguments」を持たな
  */
+
+/**
+ * 分割代入
+ */
+
+// const myProfile = {
+//   name: "onthe6ks",
+//   age: 32
+// };
+
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です`;
+// console.log(message1);
+
+// // 毎回オブジェクト名を記載するのは冗長
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}歳です!!`;
+// console.log(message2);
+
+// // 配列でも分割代入が可能
+// const myProfile2 = ["onthe6ksss", 32];
+// const [name2, age2] = myProfile2;
+// const message3 = `名前は${name2}です。年齢は${age2}歳です!!`;
+// console.log(message3);
