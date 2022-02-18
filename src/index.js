@@ -166,3 +166,28 @@
 
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
+
+/**
+ * mapや　filterを使った配列処理
+ */
+
+// const nameArr = ["田中", "山田", "鈴木"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]);
+// }
+
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+// console.log(nameArr2);
+
+// nameArr.map((name) => {
+//   console.log(`${name}さん`);
+// });
+
+// filter
+// const numArr = [1, 2, 3, 4, 5, 6, 7];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 0;
+// });
+// console.log(newNumArr);
