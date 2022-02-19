@@ -211,3 +211,29 @@
 // };
 
 // console.log(checkSum(10, 91));
+
+/**
+ * 論理演算子の本当の意味を知ろう　&& ||
+ *
+ */
+
+// const flag1 = true;
+// const flag2 = true;
+
+// if (flag1 || flag2) {
+//   console.log("falg1,flag2のどちらががtrue");
+// }
+
+// if (flag1 && flag2) {
+//   console.log("falg1,flag2の両方ががtrue");
+// }
+
+// ||は左がfalseなら右をかえす
+// const num2 = null;
+// const fee = num2 || "金額未設定";
+// console.log(fee);
+
+// &&は左がfalseなら右をかえす
+// const num2 = 3;
+// const fee = num2 && "なにかが設定されている";
+// console.log(fee);
