@@ -191,3 +191,23 @@
 //   return num % 2 === 0;
 // });
 // console.log(newNumArr);
+
+/**
+ * 参考演算子
+ */
+
+//ある条件　？　条件がtrueのとき　: falseのとき
+//  const val1 = 1 < 0 ? 'trueです' : 'falseです' ;
+//  console.log(val1);
+
+// const num = 1300;
+// console.log(num.toLocaleString());
+
+// const formttedNum = typeof(num) === 'number' ? num.toLocaleString() : '数値を入力してください';
+// console.log(formttedNum.toLocaleString());
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています" : "許容範囲ないです";
+// };
+
+// console.log(checkSum(10, 91));
